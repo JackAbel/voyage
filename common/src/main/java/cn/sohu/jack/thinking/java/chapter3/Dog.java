@@ -1,9 +1,9 @@
 package cn.sohu.jack.thinking.java.chapter3;
 
 public class Dog {
-    String name = "";
-    String says = "";
-
+    private String name = "";
+    private String says = "";
+    private String json = "{\"name\":\"top\",\"age\":\"sg\"}";
     public static void main(String[] args) {
         Dog spot = new Dog();
         Dog scruffy = new Dog();

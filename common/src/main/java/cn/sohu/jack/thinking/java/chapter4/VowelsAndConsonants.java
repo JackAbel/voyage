@@ -1,0 +1,35 @@
+package cn.sohu.jack.thinking.java.chapter4;
+
+import java.util.Random;
+
+/**
+ * @author jinxianbao
+ * @date 2019/3/6 8:52 PM
+ */
+// Demonstrates the switch statement
+public class VowelsAndConsonants {
+    public static void main(String[] args) {
+        Random rand = new Random(47);
+        for (int i = 0; i < 100; i++) {
+            int c = rand.nextInt(27) + 'a';
+            System.out.print((char)c + " " + c + ": ");
+            switch (c) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    System.out.println("vowel");
+                    break;
+                case 'y':
+                case 'w':
+                    System.out.println("Sometimes a vowel");
+                    break;
+                default:
+                    System.out.println("consonant!");
+
+            }
+        }
+    }
+
+}
