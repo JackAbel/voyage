@@ -17,6 +17,11 @@ public class OverLoading {
            System.out.println("Creating a tree that is " + height + " feet tall" );
        }
 
+        Tree(Integer sg) {
+            System.out.println(sg);
+
+        }
+
        void info() {
            System.out.println("Tree is " + height + " feet tall");
        }
