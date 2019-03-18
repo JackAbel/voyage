@@ -24,6 +24,10 @@ public class Shared {
     }
 
     public String toString() {
-        return "Shared" + id;
+        return "Shared " + id;
+    }
+
+    public int getRefCount() {
+        return refCount;
     }
 }

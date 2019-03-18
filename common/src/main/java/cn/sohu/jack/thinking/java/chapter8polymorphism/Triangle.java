@@ -13,4 +13,5 @@ public class Triangle extends Shape {
     public void erase() {
         System.out.println("Triangle.erase()");
     }
+
 }
