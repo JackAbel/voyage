@@ -1,0 +1,10 @@
+package cn.sohu.jack.thinking.java.chapter9interface;
+
+/**
+ * @author jinxianbao
+ * @date 2019/3/19 9:43 PM
+ */
+public interface Service {
+    void method1();
+    void method2();
+}

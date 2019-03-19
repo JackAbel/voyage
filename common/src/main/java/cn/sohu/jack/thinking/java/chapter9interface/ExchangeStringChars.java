@@ -10,11 +10,13 @@ public class ExchangeStringChars {
         String[] strings = s.split("");
         StringBuilder sn = new StringBuilder();
         for (int i = 0; i < s.length(); i += 2) {
-            while (i + 1 < s.length()) {
-                String tmp = strings[i];
-                strings[i] = strings[i+1];
-                strings[i+1] = tmp;
+            if (i + 1 >= s.length()) {
+                break;
             }
+            String tmp = strings[i];
+            strings[i] = strings[i+1];
+            strings[i+1] = tmp;
+
         }
         for (String w : strings) {
             sn.append(w);

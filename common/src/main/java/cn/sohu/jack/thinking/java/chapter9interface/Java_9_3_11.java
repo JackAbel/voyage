@@ -16,8 +16,13 @@ public class Java_9_3_11 implements ProcessImpl {
         return exchangeStringChars.getClass().getSimpleName();
     }
 
-    public Waveform process(Object input) {
-        return (Waveform)input;
+    public String process(Object input) {
+        return exchangeStringChars.StringCharExchange((String) input);
+    }
+
+    public static void main(String[] args) {
+        String s = "ps";
+        Apply.process(new Java_9_3_11(new ExchangeStringChars()), s);
     }
 
 }
