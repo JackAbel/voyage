@@ -2,8 +2,8 @@ package cn.sohu.jack.thinking.java.chapter10innerclass;
 
 /**
  * @author jinxianbao
- * @date 2019/3/29 10:07 PM
+ * @date 2019/4/2 9:57 AM
  */
-public class Sequence01 {
-    Sequence sequence
+public interface Incrementable {
+    void increment();
 }

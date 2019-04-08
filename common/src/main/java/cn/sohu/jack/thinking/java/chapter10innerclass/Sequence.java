@@ -17,6 +17,15 @@ public class Sequence {
         }
     }
 
+    public Object[] reverseSelector() {
+        Object[] item2 = new Object[items.length];
+        for (int y = items.length; y < 0; y-- ) {
+
+            item2[items.length - y] = items[y];
+        }
+        return item2;
+    }
+
     private class SequenceSelector implements Selector {
         private int i = 0;
 
@@ -49,6 +58,7 @@ public class Sequence {
             OneString o = new OneString();
             o.s = Integer.toString(i) + "love";
             sequence.add(o);
+            sequence.reverseSelector();
         }
         Selector selector = sequence.selector();
         while (!selector.end()) {
