@@ -138,4 +138,33 @@ public class GreenHouseController extends Controller {
             return "Terminating";
         }
     }
+
+    private Boolean fan = false;
+    public class FanOn extends Event {
+        public FanOn(Long delayTime) {
+            super(delayTime);
+        }
+
+        public void action() {
+            fan = true;
+        }
+
+        public String toString() {
+            return "fan is on";
+        }
+    }
+
+    public class FanOff extends Event {
+        public FanOff(Long delayTime) {
+            super(delayTime);
+        }
+
+        public void action() {
+            fan = false;
+        }
+
+        public String toString() {
+            return "fan is off";
+        }
+    }
 }
