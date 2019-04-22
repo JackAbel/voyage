@@ -159,3 +159,55 @@ java在类的继承上并没有多继承。抽象类属于类，所以可以被�
    局部内部类与匿名内部类比较我们需要一个已命名的构造器，或者需要重载构造器； 匿名内部类只能用于实例初始化
 11、闭包（Closure）是一种能被调用的对象，它保存了创建它的作用域的信息。JAVA并不能显式地支持闭包，但是在JAVA中，闭包可以通过“接口+内部类”来实现。
    例如：一个接口程序员和一个基类作家都有一个相同的方法work，相同的方法名，但是其含义完全不同，这时候就需要闭包
+
+第十一章 容器
+1、ArrayList和LinkedList 都是按照插入元素的顺序保存对象的
+   Set 保存对象的顺序没多大关系，用到的情况是一般看对象存不存在，HashSet 使用相当复杂的方式来存储元素，但它是最快获取元素的方式
+    TreeSet是按照比较结果的升序方式排列元素，LinkedHashSet 是按照添加顺序保存元素
+   HashMap 是使用一种非常快的算法来存储元素 TreeSet是按照比较结果的升序方式排列键，LinkedHashSet 是按照添加顺序保存键
+2、基本的ArrayList 长于随机访问列表中的元素，而插入或者移除中间的元素较慢
+   LinkedList 随机访问元素较慢，但特性集较ArrayList 更多
+3、List 允许添加 移除元素，或者自我调整尺寸，正是它的重要价值所在
+4、如果想确定一个元素存在于list中，使用contains()方法，如果想移除一个元素，使用remove()这个元素的引用，使用indexOf()来确定元素在list中的索引位置
+5、subList 是从一个较大的列表中切出一个较小的列表，containAll 是检查一个集合是否完全包含在另一个大的集合中 retainAll() 是一种有效的交集操作，也依赖于equals()方法
+6、isEmpty() 和 clear() 方法的效果 toArray() 将集合转化为数组，默认是没有类型检查的(Object)，可以在参数中指定元素类型，如果转化的数组长度超过了指定的数组长度，
+   会自动创建一个合适长度的数组
+7、Iterator 可以移除由next()方法产生的最后一个元素，so 在调用remove方法之前得调用 next()
+   迭代器统一了对容器的访问方式
+8、LinkedList 常见方法
+   getFirst() and element() are same; 如果list为空时，抛出NoSuchElement-Exception but peek() 在列表为空时返回null
+   removeFirst() and remove() 移除并返回列表的头，果list为空时，抛出NoSuchElement-Exception but poll() 在列表为空时返回null
+   addFist 插入元素到列表的头，add() 与 addLast() 相同
+   removeLast() 移除并返回列表的最后一个元素
+9、Set最常被使用的是测试归属性 HashSet使用的散列，TreeSet 是红黑树，
+10、练习23 为什么出现次数最多的总是3呢？
+11、队列在并发编程中相当重要
+12、offer() 方法提供插入元素到queue的尾部，或者返回null
+13、PriorityQueue<>() 是按照优先级的顺序取元素的，一般基本类型Character Double Integer String是按照自然排序做的
+14、transient:
+    Variables may be marked transient to indicate that they are not part of the persistent state of an object
+    The transient keyword in Java is used to indicate that a field should not be part of the serialization
+    (which means saved, like to a file) process.
+15、类型参数<T>和无界通配符<?>的区别
+    两种场景 1、声明一种泛型类或泛型方法  2、使用一种泛型方法或泛型类
+    类型参数<T> 适合第一种场景，用来"约束类型一致的"
+    无界通配符<?> 适合第二种
+    声明泛型类不能用无界通配符<?>； 并且 <?> 使用中会有一些坑
+    有界通配符<? extends XXX>，<? super XXX> 更实际和常用
+
+16 总结：
+   1）数组将数字和对象联系起来，保存类型明确的对象，可以是多维的，可以保存基本类型的数据，数组一旦生成，其容量就不改变
+   2）Collection 保存单一的元素，Map保存相关联的键值对，通过java的泛型可以指定保存的对象类型，容器不能持有基本类型，但自动包装机制会自动的将
+      基本类型进入容器时和包装器类型做双向转化
+   3）List 是建立数字索引和对象的关联，因此，数组和List都是排好序的容器，List能够自动扩充容量
+   4）进行大量的随机访问用ArrayList，过多的插入和删除则选择LinkedList
+   5）各种Queue以及栈的行为 有LinkedList提供支持
+   6）Set不支持重复元素，HashSet提供最快的查询速度，TreeSet使元素处于排序状态，LinkedHashSet 使元素以插入时的顺序排序
+   7）Map是一种对象与对象相关联的设计，HashMap提供了最快访问速度，TreeMap使键始终处于排序状态，LinkedHashMap使元素保持插入顺序
+
+
+第十二章
+1、所有的标准异常类都有两个构造器，一个默认构造器，一个含参数
+2、异常类的根类是Throwable，最好是抛出对应类型的异常，便于后续判断和处理
+3、用抛出异常的方式从当前作用域退出 或者将异常对象返回给throw
+4、异常有终止和恢复模型
