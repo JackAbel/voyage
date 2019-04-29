@@ -14,7 +14,7 @@ public class Practice01 {
             System.out.println("Caught Exception");
             e.printStackTrace();
         } finally {
-            System.out.println("proving finally has been execute");
+            System.out.println("proving finally has been executed");
         }
     }
 }

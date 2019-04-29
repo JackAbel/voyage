@@ -172,7 +172,7 @@ java在类的继承上并没有多继承。抽象类属于类，所以可以被�
 5、subList 是从一个较大的列表中切出一个较小的列表，containAll 是检查一个集合是否完全包含在另一个大的集合中 retainAll() 是一种有效的交集操作，也依赖于equals()方法
 6、isEmpty() 和 clear() 方法的效果 toArray() 将集合转化为数组，默认是没有类型检查的(Object)，可以在参数中指定元素类型，如果转化的数组长度超过了指定的数组长度，
    会自动创建一个合适长度的数组
-7、Iterator 可以移除由next()方法产生的最后一个元素，so 在调用remove方法之前得调用 next()
+7、Iterator remove方法可以移除由next()方法产生的最后一个元素，so 在调用remove方法之前得调用 next()
    迭代器统一了对容器的访问方式
 8、LinkedList 常见方法
    getFirst() and element() are same; 如果list为空时，抛出NoSuchElement-Exception but peek() 在列表为空时返回null
