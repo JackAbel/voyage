@@ -10,6 +10,8 @@ public class Practice2 {
         try {
             s.length();
         } catch (Exception e) {
+            e.getMessage();
+            e.getLocalizedMessage();
             e.printStackTrace();
         }
     }
