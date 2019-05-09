@@ -12,16 +12,15 @@ public class RethrowNew {
 
     public static void main(String[] args) {
         try {
-            f();
-        } catch (OneException e) {
-            System.out.println("Caught in inner try, e.printStackTrace");
-            e.printStackTrace(System.out);
-            throw new TwoException("from inner try");
-        }
-        try {
-            h();
-        } catch (Exception e) {
-            System.out.println("main: printStackTrace");
+            try {
+                f();
+            } catch (OneException e) {
+                System.out.println("Caught in inner try, e.printStackTrace");
+                e.printStackTrace(System.out);
+                throw new TwoException("from inner try");
+            }
+        } catch (TwoException e) {
+            System.out.println("Caught in outer try, e.printStackTrace");
             e.printStackTrace(System.out);
         }
     }
