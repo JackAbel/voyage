@@ -240,7 +240,43 @@ java在类的继承上并没有多继承。抽象类属于类，所以可以被�
 4、abc+和(abc)+ 是有区别的
 5、replaceAll() 和 replaceFirst() 用来替换普通的字符串，要想对这些字符串做特殊处理，这两个方法是无法胜任的，appendReplacement()
     此方法允许你在替换过程中对字符串做特殊处理！
+6、检查String是否为int值
+    /*Pattern pattern = Pattern.compile("[0-9]*");
+    if (pattern.matcher(bucket.get(field).toString()).matches()) {
+        continue;
+    }*/
 
 第十四章 类型信息
 1、运行时类型信息可以使你在程序运行时发现和使用类型信息
 2、你想在
+3、使用newInstance()创建的类，必须带有默认的构造器
+4、使用类字面常量对class进行引用，例如 FancyToy.class 这样不使用forName(); 简单安全，也更高效，在编译的时候检查错误。
+   最重要的是不对类做初始化操作
+   类字面常量不仅能引用普通的类，也可以应用到接口，数组以及普通的基本数据类型
+   对于基本数据类型的包装器类，boolean.class 等同于 Boolean.TYPE
+5、Class的转型语法 cast()可以将其参数转化为引用类型 这种很不常用，可以暂时忽略
+6、类型检查 instanceOf x instanceof Dog 动态的instanceof Class.isInstance
+
+7、参考 https://blog.csdn.net/fangqun663775/article/details/78960545
+   静态代理类的缺点：单个代理类只能代理单个实现类，共同的接口增加方法后在代理类和实现类中都需要实现新增的方法，代码的重复性增加和维护成本增加
+   动态代理是在运行时，通过反射机制实现动态代理，能够代理各种类型的对象，在Java中想要实现动态代理机制，需要java.lang.reflect.InvocationHandler接口
+   和 java.lang.reflect.Proxy 类的支持
+   java.lang.reflect.InvocationHandler接口的定义如下：
+   //Object proxy:被代理的对象
+   //Method method:要调用的方法
+   //Object[] args:方法调用时所需要参数
+   public interface InvocationHandler {
+       public Object invoke(Object proxy, Method method, Object[] args) throws Throwable;
+   }
+   java.lang.reflect.Proxy类的定义如下：
+   //CLassLoader loader:类的加载器
+   //Class<?> interfaces:得到全部的接口
+   //InvocationHandler h:得到InvocationHandler接口的子类的实例
+   public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces, InvocationHandler h) throws IllegalArgumentException
+8、final 域实际上在接受修改时是安全的，系统运行时final域可以接受任何修改，但这些修改不会改变什么
+
+第十四章 泛型
+1、需要知道java的范型边界是什么，以及为什么会有这些限制，这能帮助你理解原理，根据经验，只有知道了边界你才能成为程序高手，而不必在死胡同里浪费时间
+2、java泛型不能使用基本类型作为类型参数，但自动装箱拆箱的特性能实现自动转化
+3、java的泛型推断只适合赋值操作，其它时候都不适用 如果你将一个泛型方法调用的结果作为参数，传递给另一个方法，该方法不会推断出这个类型，因为泛型方法的调用后的返回值是一个Object
+4、泛型方法和可变参数列表能够很好的共存

@@ -1,4 +1,4 @@
-package cn.sohu.jack.thinking.java.chapter14TypeInfomation;
+package cn.sohu.jack.thinking.java.chapter14TypeInformation;
 
 /**
  * @author jinxianbao
@@ -6,8 +6,7 @@ package cn.sohu.jack.thinking.java.chapter14TypeInfomation;
  */
 public class Toy {
     // to see NoSuchMethodError from (*1*)
-    Toy() {
-    }
+    Toy() { }
 
     Toy(int i) {
 

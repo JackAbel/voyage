@@ -1,4 +1,4 @@
-package cn.sohu.jack.thinking.java.chapter14TypeInfomation;
+package cn.sohu.jack.thinking.java.chapter14TypeInformation;
 
 /**
  * @author jinxianbao

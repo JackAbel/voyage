@@ -14,7 +14,13 @@ public class Splitting {
     public static void split(String regex) {
         System.out.println(Arrays.toString(knights.split(regex)));
     }
-
+    /**
+     * @description: 
+     * @param args 
+     * @return: void
+     * @author: Xiangbao Jin
+     * @since: 2019/5/23 11:13 PM
+     */
     public static void main(String[] args) {
         split(" ");
         split("\\W+");
