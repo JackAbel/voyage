@@ -2,601 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c10c09af-0729-40d9-86f5-54cbf922bc5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Lists.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Lists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/other/PackagePrivilege.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/other/PackagePrivilegeAccess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/A$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/AnonymousConstructor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/AnonymousConstructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/BigEgg$Yolk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/BigEgg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Callbacks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Callee1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Callee2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Callee2$Closure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Callee2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Caller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Contents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Destination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/DotNew$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/DotNew.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/DotThis$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/DotThis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/E11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Egg$Yolk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Egg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Factories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$Bell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$FanOff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$FanOn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$LightOff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$LightOn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$Restart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$Terminate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$ThermostatDay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$ThermostatNight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$WaterOff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController$WaterOn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/GreenHouseControllers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Implementation1$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Implementation1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Implementation1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Implementation2$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Implementation2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Implementation2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Incrementable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/InheritInner$InheritInn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/InheritInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Java10_4_6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Java10_5_10$1OneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Java10_5_10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Java10_5_11$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Java10_5_11$TwoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Java10_5_11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Java10_5_9$1OneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Java10_5_9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/LocalInnerClass$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/LocalInnerClass$1LocalCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/LocalInnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/MyIncrement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/OneString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Outer$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel10$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel4$PContents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel4$PDestination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel5$1PDestination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel6$1TrackingSlip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel9$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Parcel9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/SecondInner$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/SecondInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Selector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Sequence$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Sequence$SequenceSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Sequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/ServiceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/TestParcel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/U.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/WithInner$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/WithInner$Inner2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter10innerclass/WithInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/AdapterMethodIdiom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/AddingGroups.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/ApplesAndOrangesWithoutGenerics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/ArrayIsNotIterable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/AsListInference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/CollectionSequence$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/CollectionSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/CollectionSequence30$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/CollectionSequence30.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/CrossContainerIteration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Crusty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/EnvironmentVariables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Gerbil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Heavy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/InterfaceVsIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Light.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/LinkedListFeatures.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/ListFeatures.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/ListIteration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/MapOfList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/NonCollectionSequence$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/NonCollectionSequence$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/NonCollectionSequence$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/NonCollectionSequence$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/NonCollectionSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Orange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/PetSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Powder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice28.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice4$Creater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Practice6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/PrintingContainers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/PriorityQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/QueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/ReversibleArrayList$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/ReversibleArrayList$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/ReversibleArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/SecondCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/SetOfInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/SimpleCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/SimpleIteration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Slush.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Snow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/StackCollision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/Statistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/StringInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter11collection/UniqueWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/AlwaysFinally.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Annoyance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/BaseballException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/DynamicFields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/DynamicFieldsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/ExtraFeatures.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/FinallyWorks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Foul.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/FourException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/FullConstructors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/HoHumException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/IgnoreExceptionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/InheritingException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Inning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/InputFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/LoggingException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/LoggingExceptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/LostMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/LostMessage19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/MultipleReturns.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/MyException2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/NeverCaught.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/OneException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/PopFoul.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Practice01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Practice10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Practice2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Practice3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Practice4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Practice8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/RainedOut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/RethrowNew.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Rethrowing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/SimpleException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Sneeze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Storm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/StormException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/StormyInning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/StormyInning20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/Strike.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/ThreeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/TwoException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/UmpireException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/VeryImportantException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter12exception/WhoCalled.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/Base64Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/InfiniteRecursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/InfiniteRecursion2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/IntegerMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/Practice10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/Practice11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/Practice7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/Practice8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/Practice9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/SplitDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/Splitting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/TestRegularExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter13string/TheReplacements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Circle6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/ClassInitialization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/CountedInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Derived.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/DynamicProxyHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/FamilyVsExactType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/FancyToy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/FilledList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Fliter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/GenericToyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/HasBetteries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/HiddenC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Initable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Initable2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Initable3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Landproof.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/LogHander.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Part.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Practice10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Practice8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/RealObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Rhomboid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Shape6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Shapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Shapes6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Shoots.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/ShowMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/SimpleDynamicProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/SimpleProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/SimpleProxyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Square6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Toy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/ToyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/ToyTest19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Triangle6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/UserManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/UserManagerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter14TypeInformation/Waterproof.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/ArrayMaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/AutoMobile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/BankTeller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/BasicHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Building.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/CRGWithBasicHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/CanineHero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/ClassTypeCapture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/ClassTypeCreator22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Colored.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/ColoredDimension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/ContainerMethodDifferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/CuriouslyRecurringGeneric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Customer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Customer$Teller$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Customer$Teller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Dimension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/DogBoy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/EpicBattle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Exercise20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Exercise26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Exercise27.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/ExerciseClass25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/ExerciseInterface25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/ExerciseInterface252.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/FactoryConstraint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/FactoryI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/FixedSizeStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Fnorkle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Foo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Frob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Fruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Generator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Generic1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Generic2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/GenericCast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/GenericMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/GenericMethodsExercise9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/GenericType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/GenericVarargs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/GenericWriting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/HasColor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/HiddenImplementation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Holder3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/House22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/IntegerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Jonathan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/LinkedStack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/LinkedStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/LostInformation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/LoveAndHate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Orange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Particle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Quark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/RandomList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/SelfBounded.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Sets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/SetsExercise17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Subtype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/SuperHearSmell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/SuperHearing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/SuperHero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/SuperPower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/SuperSleuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/SuperSmell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/SuperTypeWildCards.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/ThreeMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/ThreeTuple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/TwoTuple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/UnBoundedWildcards.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/WaterColorSets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/WaterColors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Widget$Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/Widget.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter15generics/XRayVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/ArrayOfGenerics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/ArrayOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/BerylliumSphere.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/ClassParameter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/CompType$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/CompType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/CopyingArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/CountingGenerator$Boolean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/CountingGenerator$Character.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/CountingGenerator$Double.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/CountingGenerator$String.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/CountingGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/Ex19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/FillingArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/GeneratorsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/IceCream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/MethodPatameter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/ParameterizedArraytype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter16array/Practice19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/CollectionMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/FillingStringList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/HashType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/Lists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice6Unsupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/SetType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/StringBuild.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/Treetype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/TypesForSets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter17deepcollection/Unsupported.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter2/AllTheColorsOfRainbow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter2/AutoBoxTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter2/DataOnly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter2/NewBasicType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/Assignment$Letter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/Assignment$PassObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/Assignment$Tank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/Assignment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/AtuoInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/BinaryRightMove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/BitManipulation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/CastCoin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/Casting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/CastingNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/EqualsMethod2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/Literals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/MathOps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/Overflow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/ShiftOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/ShortCircuit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter3/Value.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter4/BreakAndContinue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter4/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter4/FindPrime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter4/ForEachFloat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter4/LabeledWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter4/ListCharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter4/PracticeEight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter4/PracticeTen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter4/VowelsAndConsonants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/ArraryOfprimitives.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/ArrayClassObj.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/AutoBoxingArgs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Bowl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Burrito$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Burrito.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Cup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Cupboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/DenominationOfRMB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/DynamicArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/EnumOrder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/EnumOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/ExplicitInitialize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Flower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/InitialValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/InitializeString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Leaf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Mug.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Mugs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/OptionalTralingArguments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/OverLoading$Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/OverLoading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Practice10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Practice12$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Practice12$Tank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Practice12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Practice14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Practice17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/SimpleEnumUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Spiciness.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/StaticInitialization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/TerminationCondition$Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter5/TerminationCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter6/Connection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter6/ConnectionManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter6/Exercise608.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter6/Exercise701.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter6/Lunch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter6/PackageAccessPrivilegeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter6/Soup1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter6/Soup2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Amphibian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Beetle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Cartoon$Art.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Cartoon$BoardGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Cartoon$Cartoon2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Cartoon$Drawing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Cartoon$Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Cartoon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Cleanser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Detergent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Exercise708$BaseClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Exercise708$SonClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Exercise708.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Exsecise715.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/FinalData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Frog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Hide$Bart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Hide$Homer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Hide$Milhouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Hide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Insect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Poppet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/SpaceShipControls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/SpaceShipDelegation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter7/Value.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Amphibian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Characteristic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Composing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/CovariantReturn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Cycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Description.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/FieldAccess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Frog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Glyph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Grain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Instrument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/LiveCreature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Mill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/MoreUseful.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Note.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/OneMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/RTTI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/RandomShapeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/RefrenceCounting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/RoundGlyph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Shapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Shared.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Sub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Super.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/UniCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Useful.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Wheat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/WheatMill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter8polymorphism/Wind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/AbstractImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/AbstractInstrument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/AbstractJava_9_4_14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/AbstractOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/ActionCharacter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Adventure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Apply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/BandPass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Bicycle$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Bicycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Brass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/CanClimb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/CanFight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/CanFly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/CanSwim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/CharSerial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Checkers$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Checkers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Chess$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Chess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Cycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/CycleFactories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/CycleFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Downcase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/E.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/ExchangeStringChars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Factories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Filter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/FilterAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/FilterProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/FirstTwoMethod1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/FirstTwoMethod2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/FirstTwoMethod3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Future$Inner2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Future.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/GameFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Games.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Hero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/HighPass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Implementation1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Implementation1Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Implementation2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Implementation2Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Instrument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Java_9_1_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Java_9_3_11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Java_9_4_13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Java_9_4_14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/LowPass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/MultiImplementation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Music4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/OneExtend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/OneInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/OneInterImpl2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/OneInterImpl3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Outer$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Outer$sout$sg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Outer$sout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Percussion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/ProcessImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/RandVals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/SecondOneMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/ServiceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Splitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/StringProcesser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Stringed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/TestRandVals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/ThreeInterImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Tricycle$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Tricycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Unicycle$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Unicycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Upcase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Waveform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Wind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Woodwind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Z$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/cn/sohu/jack/thinking/java/chapter9interface/Z.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -655,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Lists.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+              <caret line="48" column="31" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -672,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="476">
               <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -959,7 +365,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562852043421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562852364591" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1090,12 +496,12 @@
       <workItem from="1561952408676" duration="4246000" />
       <workItem from="1562233709986" duration="14835000" />
       <workItem from="1562644188675" duration="2192000" />
-      <workItem from="1562851250603" duration="732000" />
+      <workItem from="1562851250603" duration="955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113932000" />
+    <option name="totallyTimeSpent" value="114155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -1431,16 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/SetType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1517,6 +913,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1527,7 +933,7 @@
     <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="31" />
         </state>
       </provider>
     </entry>
