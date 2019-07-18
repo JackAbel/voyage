@@ -46,7 +46,7 @@ public class Lists {
         i = it.nextIndex();
         s = it.previous();
         i = it.previousIndex();
-        System.out.println("-");
+        System.out.println("-2-");
     }
 
     public static void iterManipulation(List<String> a) {
