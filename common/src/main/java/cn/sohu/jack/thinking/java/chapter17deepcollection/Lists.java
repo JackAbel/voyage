@@ -25,6 +25,7 @@ public class Lists {
         a.addAll(3,c);
         b = a.contains("1");
         b = a.containsAll(c);
+        //
         // Lists allow random access, which is cheap for ArrayList, expensive for LinkedList
         s = a.get(1);
         i = a.indexOf("1");
