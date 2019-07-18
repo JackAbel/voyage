@@ -10,6 +10,7 @@ public class Cup {
     static {
         bowl2 = new Bowl(2);
         bowl3 = new Bowl(3);
+        System.out.println("--");
     }
 
     Cup() {
