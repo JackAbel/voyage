@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="git-0729-40d9-86f5-54cbf922bc5f" name="Default Changelist" comment="" />
+    <list default="true" id="git-0729-40d9-86f5-54cbf922bc5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/ComparableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +27,7 @@
     <session id="-1992835771">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -38,7 +46,7 @@
         <counts>
           <entry key="Bash" value="2" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="215" />
+          <entry key="JAVA" value="221" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="3" />
@@ -47,8 +55,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="25" />
-          <entry key="JAVA" value="21288" />
-          <entry key="PLAIN_TEXT" value="1742" />
+          <entry key="JAVA" value="23633" />
+          <entry key="PLAIN_TEXT" value="1743" />
           <entry key="VTL" value="20" />
         </counts>
       </usages-collector>
@@ -57,19 +65,98 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/File.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice6Unsupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="642" column="34" selection-start-line="642" selection-start-column="34" selection-end-line="642" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Lists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/ComparableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="73" column="82" selection-start-line="73" selection-start-column="82" selection-end-line="73" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+              <folding>
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3203">
-              <caret line="721" column="16" lean-forward="true" selection-start-line="721" selection-start-column="16" selection-end-line="721" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10217">
+              <caret line="642" column="34" selection-start-line="642" selection-start-column="34" selection-end-line="642" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/HashType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -102,13 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/GenericType.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/CuriouslyRecurringGeneric.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/BasicHolder.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/Subtype.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/CRGWithBasicHolder.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/SelfBounded.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/A.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/B.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/C.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/D.java" />
@@ -153,6 +233,13 @@
         <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/ProcessFiles.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/MakeDirectories.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirListTest.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/ComparableTest.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_1.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_2.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_3.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_5.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_6.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_7.java" />
       </list>
     </option>
   </component>
@@ -169,7 +256,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -178,6 +265,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -234,7 +322,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jack" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructureandarithmatic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="voyage" type="b2602c69:ProjectViewProjectNode" />
@@ -245,19 +333,22 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jack" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter18javaIOsystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voyage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voyage" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563442904958" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563543201998" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -293,33 +384,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DirListTest">
-    <configuration name="AssociativeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.thinking.java.chapter17deepcollection.AssociativeArray" />
-      <module name="voyage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.sohu.jack.thinking.java.chapter17deepcollection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DirList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.thinking.java.chapter18javaIOsystem.DirList" />
-      <module name="voyage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.sohu.jack.thinking.java.chapter18javaIOsystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Exercise1_6">
     <configuration name="DirListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.thinking.java.chapter18javaIOsystem.DirListTest" />
       <module name="voyage" />
@@ -333,12 +398,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.thinking.java.chapter18javaIOsystem.Practice3" />
+    <configuration name="Exercise1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.datastructureandarithmatic.Exercise1_1" />
       <module name="voyage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.sohu.jack.thinking.java.chapter18javaIOsystem.*" />
+          <option name="PATTERN" value="cn.sohu.jack.datastructureandarithmatic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,12 +411,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypesForSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.thinking.java.chapter17deepcollection.TypesForSets" />
-      <module name="common" />
+    <configuration name="Exercise1_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.datastructureandarithmatic.Exercise1_2" />
+      <module name="voyage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.sohu.jack.thinking.java.chapter17deepcollection.*" />
+          <option name="PATTERN" value="cn.sohu.jack.datastructureandarithmatic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise1_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.datastructureandarithmatic.Exercise1_5" />
+      <module name="voyage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sohu.jack.datastructureandarithmatic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise1_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.datastructureandarithmatic.Exercise1_6" />
+      <module name="voyage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sohu.jack.datastructureandarithmatic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,19 +451,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TypesForSets" />
-      <item itemvalue="Application.AssociativeArray" />
-      <item itemvalue="Application.DirList" />
       <item itemvalue="Application.DirListTest" />
-      <item itemvalue="Application.Practice3" />
+      <item itemvalue="Application.Exercise1_1" />
+      <item itemvalue="Application.Exercise1_2" />
+      <item itemvalue="Application.Exercise1_5" />
+      <item itemvalue="Application.Exercise1_6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise1_6" />
+        <item itemvalue="Application.Exercise1_5" />
+        <item itemvalue="Application.Exercise1_2" />
+        <item itemvalue="Application.Exercise1_1" />
         <item itemvalue="Application.DirListTest" />
-        <item itemvalue="Application.Practice3" />
-        <item itemvalue="Application.DirList" />
-        <item itemvalue="Application.AssociativeArray" />
-        <item itemvalue="Application.TypesForSets" />
       </list>
     </recent_temporary>
   </component>
@@ -404,12 +495,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132142000" />
+    <option name="totallyTimeSpent" value="144873000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -424,7 +516,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32765958" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32650602" />
@@ -490,48 +582,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/E.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/BerylliumSphere.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/ArrayOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/FillingArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/CountingGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/ClassParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/MethodPatameter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -619,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice6Unsupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -681,17 +731,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -816,7 +860,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="10217">
           <caret line="642" column="34" selection-start-line="642" selection-start-column="34" selection-end-line="642" selection-end-column="34" />
         </state>
       </provider>
@@ -839,6 +883,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/ComparableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="73" column="82" selection-start-line="73" selection-start-column="82" selection-end-line="73" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
