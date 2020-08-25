@@ -300,5 +300,97 @@ java在类的继承上并没有多继承。抽象类属于类，所以可以被�
 3、
 
 第十八章 Java I/O系统
+1、无论我们何时使用readLine(), 都不应该使用DataInputStream 而应该使用BufferedReader 除了这一点 DataInputStream仍是I/O的首选
+2、独立的类  RandomAccessFile是需要知道文件大小确切已知的类，
+3、为了提高速度，对文件进行缓冲，对string或者File的引用传递给BufferedReader构造器
+4、当我们使用DataOutputStream写数据时，能让DataInputStream读数据恢复字符串的唯一可靠做法是使用utf-8编码
+5、按照标准的I/O模型，java提供了System.in System.out System.err
+ System.out System.err 已经被包装成了 printStream 但System.in是一个未经包装和加工的InputStream
+6、我们对标准输出，标准输入和错误I/O流进行重定向 setIn(InputStream) setOut(PrintStream) setErr(PrintStream)
+7、速度的提高来自于所使用的结构更接近于操作系统的I/O工作方式：通道和缓冲器，唯一直接与通道交互的缓冲器是ByteBuffer;
+8、transferTo()和transferFrom() 是直接将一个通道与另一个通道相连
+9、ByteBuffer是以高位优先的方式存储数据
+capacity() 返回缓冲区的容量
+clear() 清空缓冲区，将position位置设置为0，limit设置为容量，可以调用此方法复写缓冲区
+flip() 将limit设置为position，position位置置为零，此方法用于从缓冲区读取已经写入的数据
+limit() 返回limit值
+limit(int lim) 设置limit值
+mark() 将mark设置为position
+position() 返回position值
+position(int pos) 设置position值
+remaining() 返回（limit-position）的值
+hasRemaining() 若有limit-position的值，则返回true
+10、内存映射文件允许我们创建和修改那些因为太大而不能放入内存的文件,"映射文件访问" 可以显著的加快速度
+11、引入了文件加锁机制，允许我们同步访问某个作为共享资源的文件！ 对独占锁和共享锁的支持由底层操作系统提供，
+    如果操作系统不支持共享锁并未每个进程都创建一个锁，它就会使用锁
+    可以通过FileLock.isShared() 来查询 可以根据position和limit加部分锁
+    文件不能获取缓冲器里的锁，只能获取通道里的锁；
 
+第二十章 注解
+1、注解（也成为元数据）为我们代码中添加信息提供了一种形式化的方式，使我们在稍后某个时刻很方便的使用这些数据
+   注解在一定程度上使将元数据与源代码结合起来，而不是外部文档保存数据造成的
+2、在注解中，一般都会包含一些元素作为注解的值，当程序使用这些注解时，可以分析使用这些值，注解中的值更像接口中的方法，唯一的区别你可以为其指定默认值
+   没有元素的注解称为标记注解
+3、 @Target @Retention 注解的级别 @Documented 将此注解包含在Javadoc中 @Inherited 允许子类继承父类的注解
+4、注解元素可用的类型有 所有基本类型(int, float, boolean ...)
+                     String
+                     class
+                     Annotation
+                     enum
+                     以上类型的数组
+5、在元素的代码定义还是默认赋值时都不能用null作为其值
+
+第二十一章 并发编程
+0、单处理器的线程会出现阻塞，所以才使得并发编程变得有意义
+1、进程是运行在它自己的地址空间内的自包容的程序，
+2、协作多线程，Java的线程是抢占式的，这表示调度机制会周期性的中断线程，并将上下文切换到另一个线程，从而为每个线程都提供时间片，使每个线程都分配到
+数量合理的时间片去驱动它的任务
+3、任何线程都可以启动另外的线程
+4、java.util.concurrent 包中的执行器(Executor)将为你管理Thread对象，从而简化了并行编程，Executor为客户端和任务执行层提供了一个间接层
+5、在任何的线程池中，现有的线程都能被复用
+6、Runnable()不返回任何值，Callable是一个具有类型参数的泛型的接口，泛型参数表示的是call()的返回值
+7、Thread类自身不执行任何操作，它只是驱动赋予它的任务
+8、多线程的原子性操作和可见性，防着资源冲突的方式方式就是给资源加上锁
+9、在使用并发时，将域设置为private是非常重要的，否则，synchronized关键字就不能防止其它任务直接访问域，这样就会产生冲突
+10、一个任务可以多次获得对象的锁，JVM负责跟踪对象被加锁的次数，只有首先获得了锁的任务才能继续获取多个其它锁，当任务离开了synchronized的方法，
+  则计数减 1，当计数为0时，此时别的任务就可以使用此资源
+11、如果对象中有超过一个方法在处理临界数据，则必须同步所有使用此资源的方法，只同步一个方法，那么其它方法则会忽略掉这个资源锁，并可以在无任何惩罚
+的时候被调用，
+12、需要解决特殊问题时，才使用显式的Lock对象，例如用Synchronized关键字获取锁不能失败重试，不能设置超时
+13、原子性操作可以应用于除long和double之外的基本类型的简单操作，对于读取和写入除了long和double之外的基本类型变量这样的操作，是当作一个原子去操作
+去操作内存的，但是JVM可以将64位（long和double变量）的读取和写入当作两个分离的32位操作来执行，这就产生了在读取和写入操作中间发生上下文切换
+从而导致不同的任务看到不正确结果的可能性！当你定义long和double类型时，如果设置了volatile关键字就会获得原子性
+14、volatile 还保证了在应用中的可视性，如果你将一个域声明为volatile，则一个任务对这个域的写操作，所有读任务都对这个修改是可见的，
+即便使用了本地缓存，情况也确实如此，volatile域会立即写入到主存中，而读取操作就发生在主存中
+15、理解原子性和易变性是不同的概念这一点很重要，在非volatile域上的原子操作不必刷新到主存中去，因此其它任务读取该域就应该是volatile的，否则
+就应该使用同步编程
+16 使用synchronized(syncObject){} 修饰的代码称为临界区，此synchronized被用来指定某个对象，此对象的锁被用来对花括号内的代码进行同步控制
+synchronized块必须给定一个在其上同步的对象
+17、如果使用synchronized(this)获得了其上了锁，那么该对象其它的synchronized修饰的方法和临界区就不能被访问
+18、任务进入阻塞状态，有如下几个原因：
+    1> 通过调用sleep(milliseconds) 使任务进入休眠状态
+    2> 你通过调用wait()使线程挂起，然后在后面中调用notify()和notifyAll()消息，线程就会进入就绪状态，
+    3> 线程等待某个输入/输出完成
+    4> 任务试图在某个对象上调用其同步控制方法，但是对象锁不可用，因为另一个任务已经获取了这个锁
+19、Thread.interrupted() 提供离开run里的循环而不抛出异常的方式，为了调用interrupt，你必须持有Thread对象，但新的concurrent尽量避免直接对
+    Thread操作，转而尽量对Executor来执行这类操作，如果你在Executor调用shutdownNow() 它将发送一个interrupt()来给这个executor启动的所有
+    线程， 如果只希望中断单个的任务，那么使用Executor的submit()来启动任务，它会返回一个Future<?>的泛型对象那么就有了对这个任务的控制权，
+    使用这个Future的关键在于你在其上可以调用cancel()
+20、你不能中断试图获得synchronized锁和执行I/O操作的线程，特别在创建执行I/O任务时，意味这I/O操作有潜在锁住你多线程程序的可能
+    对于这类问题，一个略显笨拙但行之有效的方式就是关闭启动这个任务的底层资源
+21、任务被互斥所阻塞
+22、可以通过调用interrupted()来检查中断状态，这不仅可以告诉你interrupt()是否被调用过，还可以清除中断状态，可以经由单一的InterruptedException
+或单一成功的Thread.interrupted()测试来得到这种通知
+23、wait() 会在等待外部事件变化的过程中将任务挂起，不能在任务循环的检查文件状态，不断的空循环，这种称为忙等待，只有在notify或notifyAll()
+产生了某些感兴趣的事物，这个任务才会被唤醒并去检查所发生的变化，
+24、调用sleep()和yield()时任务的锁不会释放，而接受毫秒数参数的wait()与sleep()不同的是：在wait期间锁是释放的，并可以被notify和notifyAll,或者设置的wait时间
+到了之后自动唤起；第二种更常用的是不接受任何参数的wait()，启动了就无限挂起只等到notify或notifyAll()
+25、检查所感兴趣的特定条件，在条件不满足的情况下返回wait(),惯用的方法就是使用while来实现
+26、使用notify()时，当条件发生变化时，应该保证只有一个等待的任务受益，而这些限制必须对所有可能存在的子类都必须总是起作用的，以上所有的条件有一项
+不满足都只能使用notifyAll()
+27、发生死锁的四个条件：
+    1、互斥条件，任务使用的资源至少有一个是不能共享的，一根Chopstick只能被一个Philosopher使用
+    2、一个任务持有一个资源并等待另一个任务需要释放的资源，一个持有一根Chopstick的Philosopher必须等另外一个Philosopher手中释放
+    3、资源不能被抢占，任务必须把释放资源当作普通事件
+    4、必须有循环等待
 

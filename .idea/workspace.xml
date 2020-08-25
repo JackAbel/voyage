@@ -2,13 +2,158 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="git-0729-40d9-86f5-54cbf922bc5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/ComparableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/MaxNumberRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/DBTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/PasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/SQLInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/SQLString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/Testable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/Uniqueness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/UseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/UseCaseTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter20annotation/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Accessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/AtomicityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/AttempetLocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/BasicThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Blocked2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Blocked3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/BlockedMutex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Blocker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/BusyBoy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/BusyWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CachedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CachedThreadPoolPractice20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CarLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CheckFileThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CircularSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CloseResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CriticalSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Daemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/DaemonFromFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/DaemonSpawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/DaemonThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/DaemonThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Daemons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/DaemonsParactice11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/DualSynch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Entrance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/EvenChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/EvenCheckerParatice11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/EvenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/ExceptionThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/ExplicitCriticalSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/ExplicitPairManager1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/ExplicitPairManager2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/FileIsExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/FileIsExistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/FixedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/IOBlocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Incrementable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/IntGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Interrupting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Interrupting2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/InterruptingIdiom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Joiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Joining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/LiftOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/LiftOffPractice01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/LockingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/MainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Market24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/MoreBasicThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/MultiLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/MutexEvenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/NeedsCleanup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/NoTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/NotifyVsNotifyAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/OnePractice21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/OnePractice22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/OrnamentalGarden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/OrnamentalGardenPractice19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/PairChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/PairManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/PairManager1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/PairManager2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/PairManipulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/PipoIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Practice02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Practice6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/RunTask18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SelfManaged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SerialNumberChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SerialNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SimpleDaemons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SimpleMicroBenchMark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SimplePriorities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SimplePriorities9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SimplePriorities9ThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SimpleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SingleThreadExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SleepBlocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Sleeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SleepingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SyncObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SyncObject15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SyncObject15Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SynchronizedBlocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SynchronizedEvenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SynchronizingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/TaskWithResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/ThreadLocalVariableHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/TwoPractice21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/TwoPractice22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaitPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOMatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOMaticLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOffLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOnLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/AvailableCharSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/BasicFileOutPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/BinaryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/BufferToText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/BufferedInputFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/ChannelCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/Echo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/Endians.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/FileLocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/FileOutputShortcut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/FormattedMemoryInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/GetChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/GetData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/IntBufferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/LargeMappedFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/LockingMappedFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/MappedIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/MemoryInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/OSExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/OXExecuteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/Redirecting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/StoringAndRecoveringData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/TextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/TransferTo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/NotesOfLearnJava" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/NotesOfLearnJava" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/voyage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/voyage.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -27,37 +172,46 @@
     <session id="-1992835771">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="2" />
+          <entry key="CLASS" value="1" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="221" />
+          <entry key="JAVA" value="415" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="XML" value="3" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="25" />
-          <entry key="JAVA" value="23633" />
-          <entry key="PLAIN_TEXT" value="1743" />
+          <entry key="JAVA" value="47749" />
+          <entry key="PLAIN_TEXT" value="6439" />
           <entry key="VTL" value="20" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -65,46 +219,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice6Unsupport.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/NotesOfLearnJava">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6715">
+              <caret line="395" selection-start-line="395" selection-end-line="395" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Incrementable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Lists.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SynchronizingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/ComparableTest.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/LockingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="73" column="82" selection-start-line="73" selection-start-column="82" selection-end-line="73" selection-end-column="82" />
+            <state relative-caret-position="323">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,50 +262,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_5.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SimpleMicroBenchMark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="340">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_6.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-              <folding>
-                <element signature="e#1028#1029#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/MaxNumberRecursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_7.java">
+        <entry file="file://$PROJECT_DIR$/common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10217">
-              <caret line="642" column="34" selection-start-line="642" selection-start-column="34" selection-end-line="642" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/HashType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="204">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -168,6 +313,7 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -176,12 +322,16 @@
     <findStrings>
       <find>/</find>
       <find>U</find>
+      <find>Input</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>.</replace>
       <replace>T</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -189,57 +339,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/B.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/C.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/D.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter15generics/E.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/BerylliumSphere.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/ArrayOptions.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/IceCream.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/ClassParameter.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/MethodPatameter.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/ParameterizedArraytype.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/ArrayOfGenerics.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/FillingArrays.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/CountingGenerator.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/GeneratorsTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/CopyingArrays.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/Ex19.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/Practice19.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/CompType.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/StringBuild.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/FillingStringList.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/CollectionMethods.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Unsupported.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice6Unsupport.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice7.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/SetType.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/HashType.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Treetype.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/TypesForSets.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Lists.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Deque.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/AssociativeArray.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CloseResource.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/RunTask18.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/NoTask.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/OrnamentalGardenPractice19.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CachedThreadPoolPractice20.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/MultiLock.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/BlockedMutex.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Blocked2.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Interrupting2.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/NeedsCleanup.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Bloacked3.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/InterruptingIdiom.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Car.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOn.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOff.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOMatic.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/OnePractice21.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/TwoPractice21.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/BusyWait.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/OnePractice22.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/TwoPractice22.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Task.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Task2.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/NotifyVsNotifyAll.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Blocker.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Meal.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Chef.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaitPerson.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Restaurant.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/BusyBoy.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Item.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Consumer.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Producer.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Market24.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CarLock.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOffLock.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOnLock.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOMaticLock.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter2/SelfLogUtil.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter2/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Sender.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Receiver.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/PipoIO.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/NotesOfLearnJava" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirList.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirFilter.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirList2.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirList3.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/SortedDirList.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/Practice3.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/Directory.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/ProcessFiles.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/MakeDirectories.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirListTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/ComparableTest.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_1.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_2.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_3.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_5.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_6.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_7.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Incrementable.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SynchronizingTest.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/LockingTest.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SimpleMicroBenchMark.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/maxNumberRecursion.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/MaxNumberRecursion.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Solution.java" />
       </list>
     </option>
   </component>
@@ -256,16 +406,16 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -277,11 +427,6 @@
             <path>
               <item name="voyage" type="b2602c69:ProjectViewProjectNode" />
               <item name="voyage" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="voyage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="voyage" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,7 +467,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jack" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructureandarithmatic" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="voyage" type="b2602c69:ProjectViewProjectNode" />
@@ -337,24 +482,26 @@
             <path>
               <item name="voyage" type="b2602c69:ProjectViewProjectNode" />
               <item name="voyage" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563543201998" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588840628713" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -363,13 +510,18 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.sohu.jack.thinking.java.chapter18javaIOsystem" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.sohu.jack.thinking.java.chapter2" />
+      <recent name="cn.sohu.jack.thinking.java.chapeter21concurrent" />
       <recent name="cn.sohu.jack.thinking.java.chapter15generics" />
       <recent name="cn.sohu.jack.thinking.java.chapter14TypeInformation" />
       <recent name="cn.sohu.jack.thinking.java.chapter14TypeInfomation" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,13 +536,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exercise1_6">
-    <configuration name="DirListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.thinking.java.chapter18javaIOsystem.DirListTest" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Market24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.thinking.java.chapeter21concurrent.Market24" />
       <module name="voyage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.sohu.jack.thinking.java.chapter18javaIOsystem.*" />
+          <option name="PATTERN" value="cn.sohu.jack.thinking.java.chapeter21concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,21 +550,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.datastructureandarithmatic.Exercise1_1" />
-      <module name="voyage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.sohu.jack.datastructureandarithmatic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise1_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.datastructureandarithmatic.Exercise1_2" />
+    <configuration name="MaxNumberRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.datastructureandarithmatic.MaxNumberRecursion" />
       <module name="voyage" />
       <extension name="coverage">
         <pattern>
@@ -424,12 +563,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise1_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.datastructureandarithmatic.Exercise1_5" />
+    <configuration name="PipoIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.thinking.java.chapeter21concurrent.PipoIO" />
       <module name="voyage" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.sohu.jack.datastructureandarithmatic.*" />
+          <option name="PATTERN" value="cn.sohu.jack.thinking.java.chapeter21concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,8 +576,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise1_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.datastructureandarithmatic.Exercise1_6" />
+    <configuration name="SimpleMicroBenchMark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.thinking.java.chapeter21concurrent.SimpleMicroBenchMark" />
+      <module name="voyage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sohu.jack.thinking.java.chapeter21concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.sohu.jack.datastructureandarithmatic.Solution" />
       <module name="voyage" />
       <extension name="coverage">
         <pattern>
@@ -451,19 +603,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DirListTest" />
-      <item itemvalue="Application.Exercise1_1" />
-      <item itemvalue="Application.Exercise1_2" />
-      <item itemvalue="Application.Exercise1_5" />
-      <item itemvalue="Application.Exercise1_6" />
+      <item itemvalue="Application.Market24" />
+      <item itemvalue="Application.PipoIO" />
+      <item itemvalue="Application.SimpleMicroBenchMark" />
+      <item itemvalue="Application.MaxNumberRecursion" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise1_6" />
-        <item itemvalue="Application.Exercise1_5" />
-        <item itemvalue="Application.Exercise1_2" />
-        <item itemvalue="Application.Exercise1_1" />
-        <item itemvalue="Application.DirListTest" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.MaxNumberRecursion" />
+        <item itemvalue="Application.SimpleMicroBenchMark" />
+        <item itemvalue="Application.PipoIO" />
+        <item itemvalue="Application.Market24" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +624,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c10c09af-0729-40d9-86f5-54cbf922bc5f" name="Default Changelist" comment="" />
+      <changelist id="git-0729-40d9-86f5-54cbf922bc5f" name="Default Changelist" comment="" />
       <created>1558439614944</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -491,17 +643,36 @@
       <workItem from="1562644188675" duration="2192000" />
       <workItem from="1562851250603" duration="2477000" />
       <workItem from="1563173572805" duration="15863000" />
+      <workItem from="1563883596193" duration="889000" />
+      <workItem from="1564140785582" duration="752000" />
+      <workItem from="1564145894934" duration="23141000" />
+      <workItem from="1564648237396" duration="18438000" />
+      <workItem from="1565058949843" duration="4150000" />
+      <workItem from="1565575738378" duration="12529000" />
+      <workItem from="1565938085601" duration="3640000" />
+      <workItem from="1566182030382" duration="596000" />
+      <workItem from="1566266881406" duration="27124000" />
+      <workItem from="1566910187453" duration="168000" />
+      <workItem from="1566955112226" duration="22825000" />
+      <workItem from="1569578874253" duration="2759000" />
+      <workItem from="1573990261279" duration="3408000" />
+      <workItem from="1574325115957" duration="5527000" />
+      <workItem from="1578880513999" duration="331000" />
+      <workItem from="1579691257120" duration="120000" />
+      <workItem from="1580093497752" duration="58000" />
+      <workItem from="1586339185892" duration="2741000" />
+      <workItem from="1588839264067" duration="634000" />
+      <workItem from="1593670438708" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144873000" />
+    <option name="totallyTimeSpent" value="274715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1382" height="744" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25447762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -509,17 +680,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.386747" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293124" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38600725" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3268999" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32765958" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32650602" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3256936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -530,6 +701,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" id="SciView" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18311875" />
@@ -582,356 +754,337 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/MethodPatameter.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/NoTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="221">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/CopyingArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/Practice19.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/Ex19.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46648">
-          <caret line="2815" column="26" selection-start-line="2815" selection-start-column="26" selection-end-line="2815" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/GeneratorsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/ParameterizedArraytype.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/ArrayOfGenerics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/IceCream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter16array/CompType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/StringBuild.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/RunTask18.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/FillingStringList.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/OrnamentalGardenPractice19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CachedThreadPoolPractice20.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice6Unsupport.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/BlockedMutex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/HashType.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/InterruptingIdiom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/TypesForSets.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/NeedsCleanup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        <state relative-caret-position="272">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Blocked3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" selection-start-line="75" selection-end-line="107" selection-end-column="12" />
+        <state relative-caret-position="229">
+          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/CollectionMethods.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="411">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Unsupported.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOMatic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Treetype.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/TwoPractice21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        <state relative-caret-position="359">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/SetType.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/OnePractice21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="394">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Lists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Practice7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="474" column="11" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter17deepcollection/AssociativeArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/NotesOfLearnJava">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="302" selection-start-line="302" selection-end-line="302" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter13string/IntegerMatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter13string/Practice11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/FilenameFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/regex/Pattern.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="1085" column="19" selection-start-line="1085" selection-start-column="19" selection-end-line="1085" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="585" column="26" lean-forward="true" selection-start-line="585" selection-start-column="26" selection-end-line="585" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirList2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirList3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/SortedDirList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/Practice3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/Directory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10217">
-          <caret line="642" column="34" selection-start-line="642" selection-start-column="34" selection-end-line="642" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/ProcessFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/MakeDirectories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter18javaIOsystem/DirListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/ComparableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_1.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/BusyWait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_2.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/OnePractice22.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="73" column="82" selection-start-line="73" selection-start-column="82" selection-end-line="73" selection-end-column="82" />
+        <state relative-caret-position="306">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/TwoPractice22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Task2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/NotifyVsNotifyAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Blocker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Meal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Chef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaitPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Practice24.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/BusyBoy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Market24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/CarLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOnLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter2/pom.xml" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapter2/SelfLogUtil.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOMaticLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOffLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/WaxOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/PipoIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.4/fastjson-1.2.4.jar!/com/alibaba/fastjson/JSONObject.class" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/NotesOfLearnJava">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6715">
+          <caret line="395" selection-start-line="395" selection-end-line="395" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/Incrementable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SynchronizingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/LockingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_5.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/thinking/java/chapeter21concurrent/SimpleMicroBenchMark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="340">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_6.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Exercise1_7.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/MaxNumberRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/cn/sohu/jack/datastructureandarithmatic/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="72" column="37" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -964,6 +1117,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Python 2.7 (adp_etl) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
