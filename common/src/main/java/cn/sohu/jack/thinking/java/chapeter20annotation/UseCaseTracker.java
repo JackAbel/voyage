@@ -25,10 +25,22 @@ public class UseCaseTracker {
             System.out.println("Warning: Missing the use case - " + i);
         }
     }
-
+    @UseCase(id = 12, description = "live")
+    public void incomplatedMethod1() {
+    }
     public static void main(String[] args) {
         List<Integer> useCases= new ArrayList<>();
         Collections.addAll(useCases, 47,48,49,50);
         trackUseCase(useCases,PasswordUtils.class);
+
+        Class useCaseTracker = UseCaseTracker.class;
+        for (Method method : useCaseTracker.getMethods()) {
+            UseCase useCase = method.getAnnotation(UseCase.class);
+            if (useCase != null) {
+                System.out.println("method name is " + method.getName());
+                System.out.println("id is " + useCase.id());
+                System.out.println("description is " + useCase.description());
+            }
+        }
     }
 }

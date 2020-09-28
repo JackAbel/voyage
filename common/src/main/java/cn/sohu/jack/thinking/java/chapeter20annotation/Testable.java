@@ -14,4 +14,9 @@ public class Testable {
     void testExecute() {
         execute();
     }
+
+    @Override
+    public String toString() {
+        return "live";
+    }
 }

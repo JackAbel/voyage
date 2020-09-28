@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @description:
+ * @description: metaData 代码的元数据
  * @author: Xiangbao Jin
  * @since 2019/8/4 4:04 PM
  */
