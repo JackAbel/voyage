@@ -14,7 +14,7 @@
         <scala.binary.version>2.11</scala.binary.version>
         <mysql.connector.java.version>5.1.39</mysql.connector.java.version>
         <httpclient.version>4.2.5</httpclient.version>
-        <jackson.version>2.6.5</jackson.version>
+        <jackson.version>2.11.2</jackson.version>
         <protobuf.version>2.5.0</protobuf.version>
         <spark.version>2.1.1</spark.version>
         <kafka.version>0.10.2.0</kafka.version>
